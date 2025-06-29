@@ -1,0 +1,104 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:linear-gradient(to right, #141e30, #48739a,#368d8b, #5bc0be); 
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #main-heading {
+    margin-bottom: 30px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr auto;
+    gap: 11px;
+    max-width: 730px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  #todo-input,
+  #todo-date {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .btn-add {
+    background-color: #1eb054;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .todo-container {
+    max-width: 730px;
+    margin: auto;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e7ff;
+    color: black;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+  }
+  
+  .todo-item.completed {
+    background-color: #adfdc9;
+    text-decoration: line-through;
+    color: #065f46;
+    font-weight: 400;
+  }
+  
+  .todo-text {
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .todo-date {
+    margin-right: 39px;
+    text-align:center;
+    align-items:space-evenly;
+  }
+  
+  .todo-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .btn-edit {
+    color: #facc15;
+  }
+  
+  .btn-delete {
+    color: #ef4444;
+  }
+  
+  input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  
+  
+  
